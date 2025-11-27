@@ -27,11 +27,11 @@ Each task is implemented using simple Python scripts that reflect how real opera
 ```
 Lab_Sheet_3/
 │
-├── Task_1_os3task1.py
-├── Task_2_os3task2.py
-├── Task_3_os3task3.py
-├── Task_4_os3task4.py
-├── Task_5_os3task5.py
+├── os3task1.py
+├── os3task2.py
+├── os3task3.py
+├── os3task4.py
+├── os3task5.py
 └── report_Lab_Sheet_3.pdf
 └── README.md
 
@@ -105,5 +105,6 @@ Roll No.: 2301730163
 
 
 Program: B.Tech CSE(AI/ML) , K.R. Mangalam University
+
 
 
