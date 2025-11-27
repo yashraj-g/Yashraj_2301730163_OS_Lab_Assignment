@@ -1,0 +1,69 @@
+===== Operating Systems Assignment: Process Management =====
+
+--- TASK 1: Creating Child Processes ---
+
+[Child] PID: 11660, Parent PID: 11658, Message: Child 0 running
+[Child] PID: 11661, Parent PID: 11658, Message: Child 1 running
+[Child] PID: 11662, Parent PID: 11658, Message: Child 2 running
+
+[Parent] All children finished.
+
+
+--- TASK 2: Executing Commands in Child Processes ---
+
+
+[Child] PID 11663 executing command: ['ls']
+process_management.py  projects
+
+[Child] PID 11664 executing command: ['date']
+Tue Nov 18 15:36:50 UTC 2025
+
+[Child] PID 11665 executing command: ['ps']
+    PID TTY          TIME CMD
+  11657 pts/7    00:00:00 sudo
+  11658 pts/7    00:00:00 python3
+  11665 pts/7    00:00:00 ps
+
+--- TASK 3: Zombie & Orphan Simulation ---
+
+
+[Zombie Simulation]
+
+[Parent] Not calling wait() → Child becomes zombie.
+[Child-Zombie] PID 11666 exiting...
+Run: ps -el | grep defunct
+
+[Orphan Simulation]
+
+[Parent] Exiting immediately → Child becomes orphan.
+
+--- TASK 4: /proc Inspection ---
+
+Enter a PID to inspect: [Child-Orphan] PID 11716 sleeping...
+[Child-Orphan] New Parent PID after orphaning: 11658
+11658
+
+[PROCESS STATUS]
+Name:   python3
+State:  R (running)
+VmSize:    17000 kB
+
+[EXECUTABLE PATH]
+/usr/bin/python3.12
+
+[OPEN FILE DESCRIPTORS]
+['0', '1', '2', '3']
+
+--- TASK 5: Priority Scheduling ---
+
+[Child] High Priority → nice value: -5
+[Child] Normal Priority → nice value: 0
+[Child] Low Priority → nice value: 5
+[Child High Priority] Completed
+[Child Low Priority] Completed
+[Child Normal Priority] Completed
+
+[Parent] Priority execution complete.
+
+
+===== All Tasks Completed Successfully =====
