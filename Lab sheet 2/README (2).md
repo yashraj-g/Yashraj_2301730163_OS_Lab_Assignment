@@ -8,12 +8,12 @@ The goal is to simulate a simple **system startup**, **process creation**, **exe
 ## Folder Structure
 
 ```
-LAB_SHEETS/
+Yashraj_2301730163_OS_Lab_Assignment/
  ├─ Lab_Sheet_2/
  │   ├─ system_startup_simulation.py
  │   ├─ process_log.txt
- │   ├─ report.pdf
- │   └─ README.md
+ │   ├─ report_Lab_Sheet_2.pdf
+ │   └─ README(2).md
  └─ README.md
 ```
 
@@ -66,5 +66,6 @@ python system_startup_simulation.py
 **Roll No.:** 23010730163
 
 **Course:** B.Tech CSE(Ai/Ml)  
+
 
 
