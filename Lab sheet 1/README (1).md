@@ -6,12 +6,12 @@ The experiment demonstrates core Linux process management concepts using Python,
 ## Folder Structure
 
 ```
-LAB_SHEETS/
+Yashraj_2301730163_OS_Lab_Assignment/
  ├─ Lab_Sheet_1/
  │   ├─ process_management.py
  │   ├─ output.txt
- │   ├─ report.pdf
- │   └─ README.md
+ │   ├─ report_Lab_sheet_1.pdf
+ │   └─ README(1).md
  └─ README.md  ← (this main file)
 
 ```
@@ -152,5 +152,6 @@ Course: B.Tech CSE(AI/ML)
 Roll No.: 2301730163
 
 University: K.R. Mangalam University
+
 
 
